@@ -15,4 +15,4 @@ chmod +x CloudflareST ; ./CloudflareST
 
 #wireguard改地值守
 https://github.com/Ptechgithub/wireguard-go/releases
-./warp -b 0.0.0.0:（端口号随意填写） -e （优选ip:端口号） -k （密钥） --country （国家代码） --cfon
+./warp -b 0.0.0.0:(随机端口) -e (优选ip):443 -k 密钥 -country 国家代码 -cfon
