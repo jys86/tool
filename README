@@ -2,12 +2,17 @@
 
 #warp密钥生成
 https://replit.com/@misaka-blog/warp-key-generator#main.py
+python3 main.py
 
 #wireguard配置文件生成
 https://replit.com/@haixiaglin/UnwillingFruitfulFirewall#main.sh
+chmod u+x main.sh ; ./main.sh
 
 #IP优选
 https://github.com/XIU2/CloudflareSpeedTest/releases
+chmod +x CloudflareST ; ./CloudflareST
+
 
 #wireguard改地值守
 https://github.com/Ptechgithub/wireguard-go/releases
+warp -b 0.0.0.0:（端口号随意填写） -e （优选ip:端口号） -k （密钥） -country （国家代码） -cfon
