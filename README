@@ -1,12 +1,14 @@
 搬运整合
 
 #warp密钥生成
-https://replit.com/@misaka-blog/warp-key-generator#main.py
+https://replit.com/@misaka-blog/warp-key-generator
 python3 main.py
 
+
 #wireguard配置文件生成
-https://replit.com/@haixiaglin/UnwillingFruitfulFirewall#main.sh
+https://replit.com/@haixiaglin/UnwillingFruitfulFirewall
 chmod u+x main.sh ; ./main.sh
+
 
 #IP优选
 https://github.com/XIU2/CloudflareSpeedTest/releases
