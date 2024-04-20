@@ -13,7 +13,7 @@ cd ; mkdir WPWG ; cd WPWG ; mkdir warp-yxip-mac ; cd warp-yxip-mac ; curl -LJO h
 
 4.IP值守
 cd ; mkdir WPWG ; cd WPWG ; mkdir IPZS ; cd IPZS ; curl -LJO https://github.com/bepass-org/warp-plus/releases/download/v1.0.4-rc2/warp-darwin-arm64.b6d64e.zip ; unzip warp-darwin-arm64.b6d64e.zip ; rm -f warp-darwin-arm64.b6d64e.zip
-./warp -b 0.0.0.0:(随机端口) -e (优选ip) -k (密钥) -country (国家代码) -cfon
+./warp -b 0.0.0.0:(任意端口) -e (优选ip:端口) -k (密钥) -country (国家代码) -cfon
 
 
 
@@ -31,4 +31,4 @@ cd ; mkdir WPWG ; cd WPWG ; mkdir warp-yxip-mac ; cd warp-yxip-mac ; curl -LJO h
 
 4.IP值守
 cd ; mkdir WPWG ; cd WPWG ; mkdir IPZS ; cd IPZS ; curl -LJO https://github.com/bepass-org/warp-plus/releases/download/v1.0.4-rc2/warp-darwin-amd64.b6d64e.zip ; unzip warp-darwin-amd64.b6d64e.zip ; rm -f warp-darwin-amd64.b6d64e.zip
-./warp -b 0.0.0.0:(随机端口) -e (优选ip) -k (密钥) -country (国家代码) -cfon
+./warp -b 0.0.0.0:(任意端口) -e (优选ip:端口) -k (密钥) -country (国家代码) -cfon
