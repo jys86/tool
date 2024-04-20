@@ -3,10 +3,10 @@
 MAC（M芯片）
 
 1.warp密钥生成
-https://replit.com/@misaka-blog/warp-key-generator
+https://replit.com/@misaka-blog/warp-key-generator#main.py
 
 2.wireguard配置文件生成
-https://replit.com/@misaka-blog/wgcf-profile-generator
+https://replit.com/@misaka-blog/wgcf-profile-generator#main.sh
 
 3.IP优选
 cd ; mkdir WPWG ; cd WPWG ; mkdir warp-yxip-mac ; cd warp-yxip-mac ; curl -LJO https://gitlab.com/Misaka-blog/warp-script/-/raw/main/files/warp-yxip/warp-yxip-mac.sh && bash warp-yxip-mac.sh
@@ -21,10 +21,10 @@ cd ; mkdir WPWG ; cd WPWG ; mkdir IPZS ; cd IPZS ; curl -LJO https://github.com/
 MAC（INTEL芯片）
 
 1.warp密钥生成
-https://replit.com/@misaka-blog/warp-key-generator
+https://replit.com/@misaka-blog/warp-key-generator#main.py
 
 2.wireguard配置文件生成
-https://replit.com/@misaka-blog/wgcf-profile-generator
+https://replit.com/@misaka-blog/wgcf-profile-generator#main.sh
 
 3.IP优选
 cd ; mkdir WPWG ; cd WPWG ; mkdir warp-yxip-mac ; cd warp-yxip-mac ; curl -LJO https://gitlab.com/Misaka-blog/warp-script/-/raw/main/files/warp-yxip/warp-yxip-mac.sh && bash warp-yxip-mac.sh
