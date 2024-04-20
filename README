@@ -8,9 +8,8 @@ https://replit.com/@misaka-blog/warp-key-generator
 https://replit.com/@haixiaglin/UnwillingFruitfulFirewall
 
 
-#IP优选
-https://github.com/XIU2/CloudflareSpeedTest/releases/latest
-chmod +x CloudflareST ; ./CloudflareST
+#优选ip
+cd ; mkdir warp-yxip-mac ; cd warp-yxip-mac ; curl -LJO https://gitlab.com/Misaka-blog/warp-script/-/raw/main/files/warp-yxip/warp-yxip-mac.sh && bash warp-yxip-mac.sh 
 
 
 #wireguard改地值守
