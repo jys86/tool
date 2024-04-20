@@ -13,5 +13,5 @@ cd ; mkdir warp-yxip-mac ; cd warp-yxip-mac ; curl -LJO https://gitlab.com/Misak
 
 
 #wireguard改地值守
-https://github.com/bepass-org/warp-plus
+https://github.com/bepass-org/warp-plus/releases/tag/v1.0.4-rc2
 ./warp -b 0.0.0.0:(随机端口) -e (优选ip) -k (密钥) -country (国家代码) -cfon
