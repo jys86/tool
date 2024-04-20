@@ -2,23 +2,33 @@
 
 MAC（M芯片）
 
-
-#warp密钥生成
+1.warp密钥生成
 https://replit.com/@misaka-blog/warp-key-generator
 
-
-#wireguard配置文件生成
+2.wireguard配置文件生成
 https://replit.com/@misaka-blog/wgcf-profile-generator
 
+3.IP优选
+cd ; mkdir WPWG ; cd WPWG ; mkdir warp-yxip-mac ; cd warp-yxip-mac ; curl -LJO https://gitlab.com/Misaka-blog/warp-script/-/raw/main/files/warp-yxip/warp-yxip-mac.sh && bash warp-yxip-mac.sh
 
-#优选ip
-cd ; mkdir warp-yxip-mac ; cd warp-yxip-mac ; curl -LJO https://gitlab.com/Misaka-blog/warp-script/-/raw/main/files/warp-yxip/warp-yxip-mac.sh && bash warp-yxip-mac.sh 
-
-
-#wireguard改地值守
-https://github.com/bepass-org/warp-plus/releases/tag/v1.0.4-rc2
+4.IP值守
+cd ; mkdir WPWG ; cd WPWG ; mkdir IPZS ; cd IPZS ; curl -LJO https://github.com/bepass-org/warp-plus/releases/download/v1.0.4-rc2/warp-darwin-arm64.b6d64e.zip ; unzip warp-darwin-arm64.b6d64e.zip ; rm -f warp-darwin-arm64.b6d64e.zip
 ./warp -b 0.0.0.0:(随机端口) -e (优选ip) -k (密钥) -country (国家代码) -cfon
 
-nekobox
-https://github.com/MatsuriDayo/nekoray/releases/download/2.12/nekoray-2.12-2023-01-29-macos-amd64.dmg
 
+
+
+MAC（INTEL芯片）
+
+1.warp密钥生成
+https://replit.com/@misaka-blog/warp-key-generator
+
+2.wireguard配置文件生成
+https://replit.com/@misaka-blog/wgcf-profile-generator
+
+3.IP优选
+cd ; mkdir WPWG ; cd WPWG ; mkdir warp-yxip-mac ; cd warp-yxip-mac ; curl -LJO https://gitlab.com/Misaka-blog/warp-script/-/raw/main/files/warp-yxip/warp-yxip-mac.sh && bash warp-yxip-mac.sh
+
+4.IP值守
+cd ; mkdir WPWG ; cd WPWG ; mkdir IPZS ; cd IPZS ; curl -LJO https://github.com/bepass-org/warp-plus/releases/download/v1.0.4-rc2/warp-darwin-amd64.b6d64e.zip ; unzip warp-darwin-amd64.b6d64e.zip ; rm -f warp-darwin-amd64.b6d64e.zip
+./warp -b 0.0.0.0:(随机端口) -e (优选ip) -k (密钥) -country (国家代码) -cfon
