@@ -9,10 +9,10 @@ https://replit.com/@haixiaglin/UnwillingFruitfulFirewall
 
 
 #IP优选
-https://github.com/XIU2/CloudflareSpeedTest/releases
+https://github.com/XIU2/CloudflareSpeedTest/releases/latest
 chmod +x CloudflareST ; ./CloudflareST
 
 
 #wireguard改地值守
-https://github.com/Ptechgithub/wireguard-go/releases
+https://github.com/Ptechgithub/wireguard-go/releases/latest
 ./warp -b 0.0.0.0:(随机端口) -e (优选ip):443 -k 密钥 -country 国家代码 -cfon
